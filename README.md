@@ -57,6 +57,10 @@ The dataset consists of protein sequences and their annotated secondary structur
 ## Tech Stack
 Python | PyTorch | PyTorch Lightning | Streamlit | Pandas | NumPy | Scikit-Learn
 
+## App URL
+
+https://protein-secondary-structure-prediction-ss21.streamlit.app/
+
 ## Use Case
 
 This project demonstrates how deep learning can accelerate structural analysis from sequence data. It can be used in:
