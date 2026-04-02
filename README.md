@@ -27,18 +27,7 @@ The model is based on a **Bidirectional LSTM (BiLSTM)** network that captures bo
 
 ### Architecture Flow
 
-Input Sequence
-     ↓
-Embedding Layer
-     ↓
-BiLSTM Encoder
-     ↓
-Shared Features
-     ↓
-   ┌───────────┬───────────┐
-   ↓           ↓
- Q3 Head     Q8 Head
-(3 classes) (8 classes)
+Input Sequence -> Embedding Layer -> BiLSTM Encoder -> Dual Heads
 
 ### Key Components
 - **Embedding Layer:** Converts amino acids into dense vector representations
